@@ -11,7 +11,6 @@ int main() {
     int test = 0;
     int temp = 0;
     double medianL, medianX, medianU;
-    vector<int> numbers;
     cin >> test;
     for (int i = 0; i < test; ++i) {
         cin >> temp;
