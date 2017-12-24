@@ -1,0 +1,19 @@
+Binomial Experiment
+- n repeated trials
+- the trials are independent
+- the outcome of the trial is either success(s) or failure(f)
+
+Bernoulli Random Variable and Distribution
+- X(s) = 1 and X(f) = 0
+- P(s) = p and P(f) = q
+- Probability Mass Function(PMF) of X is:
+  p(x) = 1 - p = q  (if x = 0)
+       = p          (if x = 1)
+       = 0          (otherwise)
+  f(x) = p^x(1-p)^(1-x), for(x in {0, 1})
+- b(x, n, p) = nCx * p^x * q^(n-x)
+
+Cumulative Probability
+- F(x) = P(X <= x)
+- Cumulative Distribution Function(CDF) of X is:
+  P(a <= X <= b) = F(b) - F(a)
