@@ -17,7 +17,6 @@ void insertion_sort (vector<int>& nums, int size) {
         while (hole > 0 && nums[hole-1] > value) {
             nums[hole] = nums[hole-1];
             --hole;
-            print(nums);
         }
         nums[hole] = value;
     }
