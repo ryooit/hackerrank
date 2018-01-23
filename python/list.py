@@ -21,7 +21,7 @@ print(my_list)
 # list comprehension
 my_list = [n*n for n in nums]
 print(my_list)
-
+ 
 # map + lambda
 my_list = map(lambda n: n*n, nums)
 print(list(my_list))
